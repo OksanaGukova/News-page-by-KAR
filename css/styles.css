@@ -1,0 +1,7 @@
+@import './styleguide.css';
+
+.container {
+    padding: 80px 0px 0px 0px;
+width: 1400px;
+background: #ecf2fa;
+}
