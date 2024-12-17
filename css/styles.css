@@ -1,7 +1,99 @@
 @import './styleguide.css';
 
-.container {
+body {
     padding: 80px 0px 0px 0px;
 width: 1400px;
 background: #ecf2fa;
+}
+
+.header {
+    background: #000d1f;
+   
+}
+
+.header-container {
+    display: grid;
+    grid-template-columns: 1fr 396px;
+    padding: 24px 115px;
+        align-items: center;
+   
+}
+
+.logo {
+    font-family: var(--third-family);
+font-weight: 400;
+font-size: 28px;
+line-height: 130%;
+color: #fff;
+border-left: 0.88px solid #f2994a;
+    padding-left: 10px;
+}
+
+.news-list {
+    display: grid;
+    grid-template-columns: 35px 35px 35px 35px 35px 1fr;
+    gap: 30px;
+}
+
+.news {
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+color: #fff;
+}
+
+.chosen-news {
+
+color: #f2994a;
+}
+
+.describe-list {
+    display: grid;
+    grid-template-columns: 111px 59px 50px;
+    gap: 2px;
+    margin-bottom: 24px;
+}
+
+.main-header {
+    font-family: var(--second-family);
+font-weight: 700;
+font-size: 30px;
+line-height: 130%;
+color: #02234d;
+margin-bottom: 16px;
+}
+
+.describe-section {
+    padding-top: 40px;
+ 
+}
+
+.describe-section-container {
+    width: 670px;
+   margin-left: 115px;
+}
+
+.grey-text {
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+color: #a7b2c0;
+}
+
+.describe-news {
+        font-family: var(--second-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+    color: #02234d;
+}
+
+.data {
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+color: #50739f;
 }
