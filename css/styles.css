@@ -16,7 +16,7 @@ background: #ecf2fa;
     grid-template-columns: 1fr 396px;
     padding: 24px 115px;
         align-items: center;
-   width: 1400px;
+   width: 100%;
 }
 
 .logo {
@@ -73,12 +73,15 @@ margin-bottom: 16px;
 
 .describe-section {
     padding-top: 40px;
+padding-bottom: 44px;
+width: 1400;
 
 }
 .describe-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
+    width: 100%;
 }
 
 .describe-section-container {
@@ -141,4 +144,136 @@ font-weight: 400;
 font-size: 16px;
 line-height: 130%;
 color: #02234d;
+}
+
+.img-container {
+    background-color: #fff;
+    padding: 30px;
+    width: 470px;
+}
+
+.news-text {
+    font-family: var(--second-family);
+font-weight: 700;
+font-size: 30px;
+line-height: 130%;
+color: #02234d;
+margin-bottom: 25px;
+}
+
+.news-list-item {
+    display: grid;
+    gap: 25px;
+}
+
+.news-container {
+   display: grid;
+   grid-template-columns: 140px 1fr;
+   gap: 25px;
+   border-bottom: 2px solid #e6e9ee;
+   padding-bottom: 25px;
+}
+
+.last {
+    border-bottom: none;
+    margin-bottom: 70px;
+}
+
+.news-header {
+    font-family: var(--font-family);
+
+font-size: 16px;
+line-height: 130%;
+color: #1a1a1a;
+margin-bottom: 16px;
+}
+
+.news-txt {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 13px;
+color: rgba(9, 9, 32, 0.7);
+margin-bottom: 16px;
+}
+
+.author-text {
+    display: flex;
+    gap: 4px;
+}
+
+.author-name {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 13px;
+color: rgba(9, 9, 32, 0.7);
+}
+
+.date {
+       font-family: var(--font-family);
+font-weight: 400;
+font-size: 13px;
+color: #b4b7c1;
+}
+
+.footer {
+    background: #000d1f;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: 265px 266px 1fr;
+    padding: 48px 116px;
+    gap: 134px;
+        align-items: center;
+        width: 100%;
+}
+
+
+
+.footer-text {
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+color: #fff;
+}
+
+.policy-text {
+    font-family: var(--second-family);
+font-weight: 500;
+font-size: 14px;
+line-height: 150%;
+color: #fff;
+}
+
+
+
+.policy-container {
+    display: grid;
+    row-gap: 79px;
+}
+
+.contacts {
+        display: grid;
+    row-gap: 82px;
+   
+}
+
+.footer-logo {
+    font-family: var(--third-family);
+font-weight: 400;
+font-size: 48px;
+line-height: 130%;
+color: #fff;
+border-left: 1.48px solid #f2994a;
+padding-left: 16px;
+margin-left: 40px;
+}
+
+.policy-text p {
+    cursor: pointer; /* Додає іконку руки */
+}
+
+.policy-text p:hover {
+    color: orange; /* Зміна кольору тексту при наведенні */
 }
